@@ -9,7 +9,6 @@ import java.awt.Component;
 import javax.swing.JOptionPane;
 
 /**
- *
  * @author You Yang Du
  */
 public class makeOrder extends javax.swing.JFrame {
