@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author PM
  */
 public class HR_DMAdd extends javax.swing.JFrame {
 
