@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author HP
+ * @author WongJiaWei
  */
 public class Clock_In extends javax.swing.JFrame {
 
