@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Lenovo-IBM
+ * @author Liew Cheng Khai
  */
 public class OrderDomain {
     private String ORDER_ID;
