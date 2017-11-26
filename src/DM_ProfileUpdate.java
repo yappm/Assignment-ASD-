@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author PM
  */
 public class DM_ProfileUpdate extends javax.swing.JFrame {
 
