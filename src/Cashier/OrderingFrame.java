@@ -30,7 +30,7 @@ import javax.swing.table.DefaultTableModel;
  */
 /**
  *
- * @author B1
+ * @author Liew Cheng Khai
  */
 public class OrderingFrame extends javax.swing.JFrame {
 
