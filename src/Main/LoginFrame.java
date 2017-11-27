@@ -260,8 +260,7 @@ public class LoginFrame extends javax.swing.JFrame implements Serializable{
     }//GEN-LAST:event_jpfPasswordKeyPressed
 
     private void jbtForgetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtForgetActionPerformed
-        new ForgetPasswordFrame().setVisible(true);
-        dispose();
+
     }//GEN-LAST:event_jbtForgetActionPerformed
 
     private void jtfIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfIDActionPerformed
