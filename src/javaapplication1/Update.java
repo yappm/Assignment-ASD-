@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author Yee Zi Khai
  */
 public class Update extends javax.swing.JFrame {
 
