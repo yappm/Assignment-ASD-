@@ -7,7 +7,7 @@ package javaapplication1;
 
 /**
  *
- * @author TARUC
+ * @author Yee Zi Khai
  */
 public class Item {
     private String name = "Fried Chicken";
