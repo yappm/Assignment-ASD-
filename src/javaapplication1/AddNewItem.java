@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author Yee Zi Khai
  */
 public class AddNewItem extends javax.swing.JFrame {
 
