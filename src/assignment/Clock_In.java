@@ -259,7 +259,7 @@ public class Clock_In extends javax.swing.JFrame {
             jtf_Name.setText("Yee Zi Khai");
             jtf_IC.setText("970101-01-1234");
 
-            ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Documents\\Assignment\\src\\assignment\\image\\DM001.jpg"); // load the image to a imageIcon
+            ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Assignment\\src\\assignment\\image\\DM001.jpg"); // load the image to a imageIcon
             Image image = imageIcon.getImage(); // transform it 
             Image newimg = image.getScaledInstance(150, 200, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
             imageIcon = new ImageIcon(newimg);  // transform it back
@@ -277,7 +277,7 @@ public class Clock_In extends javax.swing.JFrame {
         jtf_IC.setText(null);
         jLabel2.setText("Staff Info");
         jLabel2.setForeground(Color.black);
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Documents\\Assignment\\src\\assignment\\image\\DeliveryMen.jpg"); // load the image to a imageIcon
+        ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Assignment\\src\\assignment\\image\\DeliveryMen.jpg"); // load the image to a imageIcon
         Image image = imageIcon.getImage(); // transform it 
         Image newimg = image.getScaledInstance(150, 200, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
         imageIcon = new ImageIcon(newimg);  // transform it back
@@ -293,7 +293,7 @@ public class Clock_In extends javax.swing.JFrame {
             jtf_IC.setText(null);
             jLabel2.setText("Staff Info");
             jLabel2.setForeground(Color.black);
-            ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Documents\\Assignment\\src\\assignment\\image\\DeliveryMen.jpg"); // load the image to a imageIcon
+            ImageIcon imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Assignment\\src\\assignment\\image\\DeliveryMen.jpg"); // load the image to a imageIcon
             Image image = imageIcon.getImage(); // transform it 
             Image newimg = image.getScaledInstance(150, 200, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
             imageIcon = new ImageIcon(newimg);  // transform it back
