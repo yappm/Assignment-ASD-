@@ -11,7 +11,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Asus
+ * @author You Yang Du
  */
 public class CheckScheduleOrder extends javax.swing.JFrame {
 
