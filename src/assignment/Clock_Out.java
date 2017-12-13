@@ -17,14 +17,14 @@ import javax.swing.JOptionPane;
  *
  * @author WongJiaWei
  */
-public class Clock_In extends javax.swing.JFrame {
+public class Clock_Out extends javax.swing.JFrame {
 
     /**
-     * Creates new form Clock_In
+     * Creates new form Clock_Out
      */
     public String D = "";
 
-    public Clock_In() {
+    public Clock_Out() {
         initComponents();
         showdate();
         showtime();
@@ -65,7 +65,7 @@ public class Clock_In extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jtf_IC = new javax.swing.JTextField();
         jlb_StaffImage = new javax.swing.JLabel();
-        jbt_ClockIn = new javax.swing.JButton();
+        jbt_ClockOut = new javax.swing.JButton();
         jlb_Date = new javax.swing.JLabel();
         jlb_Time = new javax.swing.JLabel();
 
@@ -151,11 +151,11 @@ public class Clock_In extends javax.swing.JFrame {
         jlb_StaffImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assignment/image/DeliveryMen.jpg"))); // NOI18N
         jlb_StaffImage.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
-        jbt_ClockIn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jbt_ClockIn.setText("Clock In");
-        jbt_ClockIn.addActionListener(new java.awt.event.ActionListener() {
+        jbt_ClockOut.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jbt_ClockOut.setText("Clock Out");
+        jbt_ClockOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbt_ClockInActionPerformed(evt);
+                jbt_ClockOutActionPerformed(evt);
             }
         });
 
@@ -175,7 +175,7 @@ public class Clock_In extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jtf_IC)
                             .addComponent(jtf_Name)
-                            .addComponent(jbt_ClockIn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jbt_ClockOut, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel3)
@@ -199,7 +199,7 @@ public class Clock_In extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jtf_IC, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jbt_ClockIn, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jbt_ClockOut, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jlb_StaffImage, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24))
         );
@@ -285,7 +285,7 @@ public class Clock_In extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jbt_CancelActionPerformed
 
-    private void jbt_ClockInActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbt_ClockInActionPerformed
+    private void jbt_ClockOutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbt_ClockOutActionPerformed
         if (jLabel2.getText().equals("Invalid Staff ID")) {
             JOptionPane.showMessageDialog(null, "Fail Clock In");
             jtf_ID.setText(null);
@@ -299,7 +299,7 @@ public class Clock_In extends javax.swing.JFrame {
             imageIcon = new ImageIcon(newimg);  // transform it back
             jlb_StaffImage.setIcon(imageIcon);
         } else {
-            JOptionPane.showMessageDialog(null, "Successful Clock In");
+            JOptionPane.showMessageDialog(null, "Successful Clock Out");
             jtf_ID.setText(null);
             jtf_Name.setText(null);
             jtf_IC.setText(null);
@@ -311,7 +311,7 @@ public class Clock_In extends javax.swing.JFrame {
             imageIcon = new ImageIcon(newimg);  // transform it back
             jlb_StaffImage.setIcon(imageIcon);
         }
-    }//GEN-LAST:event_jbt_ClockInActionPerformed
+    }//GEN-LAST:event_jbt_ClockOutActionPerformed
 
     /**
      * @param args the command line arguments
@@ -330,20 +330,27 @@ public class Clock_In extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Clock_In.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Clock_Out.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Clock_In.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Clock_Out.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Clock_In.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Clock_Out.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Clock_In.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Clock_Out.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Clock_In().setVisible(true);
+                new Clock_Out().setVisible(true);
             }
         });
     }
@@ -357,7 +364,7 @@ public class Clock_In extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JButton jbt_Cancel;
     private javax.swing.JButton jbt_Check;
-    private javax.swing.JButton jbt_ClockIn;
+    private javax.swing.JButton jbt_ClockOut;
     private javax.swing.JLabel jlb_Date;
     private javax.swing.JLabel jlb_StaffImage;
     private javax.swing.JLabel jlb_Time;
