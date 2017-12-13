@@ -7,7 +7,7 @@ package assignment;
 
 /**
  *
- * @author HP
+ * @author Wong Jia WEi
  */
 public class check_delivery extends javax.swing.JFrame {
 
