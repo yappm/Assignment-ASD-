@@ -7,7 +7,7 @@ package sprint3;
 
 /**
  *
- * @author User
+ * @author Yee Zi Khai
  */
 public class Item {
     private String name = "Fried Chicken";
