@@ -14,7 +14,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author User
+ * @author Yee Zi Khai
  */
 public class Arrange extends javax.swing.JFrame {
 
